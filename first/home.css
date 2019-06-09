@@ -1,0 +1,173 @@
+.menubar li{
+    padding: 5px;
+    background-color: azure;
+    color: black;
+    margin: 5px;
+    border: solid brown 2px;
+    border-radius: 20px;
+}
+.menubar ul{
+    padding: 20px;
+}
+.menubar button{
+    color: black;
+    border: solid black 3px;
+    border-radius: 25%;
+}
+.menubar button:hover{
+    background-color: rgb(70, 70, 163);
+}
+.menubar nav{
+    background-color: rgb(240, 204, 240);
+}
+.menubar input{
+    border: solid 3px black;
+    border-radius: 12px;
+}
+.menubar nav:hover{
+    background-color: rgb(136, 236, 228);
+}
+.menubar li:hover{
+    background-color: rgb(240, 204, 240);
+}
+.carousel img{
+    width: 100px;
+    height: 500px;
+}
+
+.cards img{
+    width: 370px;
+    height: 300px;
+}
+.card-columns {
+    @include media-breakpoint-only(lg) {
+      column-count: 4;
+    }
+    @include media-breakpoint-only(xl) {
+      column-count: 5;
+    }
+  }
+.detail{
+    height: 400px;
+    background-color: rgb(126, 69, 116);
+}
+.detail img{
+height: 300px;
+width: 600px;
+border-radius: 80%;
+}
+.container img{
+    width: 400px;
+    height: 300px;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+.contact{
+    height: 400px;
+    background-color: rgb(161, 124, 156);
+    
+}
+.contact.col-md-7{
+    margin: 50px;
+    float: left;
+}
+.contact.col-md-5{
+    float: left;
+}
+.contact input{
+    padding: 10px;
+    width: 60%;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(247, 215, 227);
+}
+.contact input:hover{
+    background-color: white;
+}
+.contact button{
+    width: 20%;
+    padding: 7px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 20px;
+
+}
+.contact button:hover{
+    background-color: rgb(142, 221, 132);
+}
+.full-footer{
+    text-align: left;
+   
+}
+.foo{
+    color: white;
+    height: 320px;
+    
+}
+.context-dark, .bg-gray-dark, .bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+    height: 320px;
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+    color: #ffffff;
+}
+
+.nav-list li {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+    padding: 23px;
+    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+.social-container .col {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.nav-list li a:before {
+    content: "\f14f";
+    font: 400 21px/1 "Material Design Icons";
+    color: #4d6de6;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;
+}
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    
+    }
+    .map-container iframe{
+    padding-top: 10px;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
